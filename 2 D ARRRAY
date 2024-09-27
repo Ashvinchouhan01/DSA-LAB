@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main(){
+int n1[10], m1[10] ;
+int a,b,w,i,l1,l2,j,n,m,rmo,cmo;
+	printf("enter the array =");
+	scanf("%d",&a);
+	printf("enter the base value =");
+	scanf("%d",&b);
+	printf("enter the size of array =");
+	scanf("%d",&w);
+	printf("enter thew index of raw =");
+	scanf("%d",&i);
+	printf("enter the lower bound =");
+	scanf("%d",&l1);
+	printf("enter the lower bound =");
+	scanf("%d",&l2);
+	printf("enter the index of coloum =");
+	scanf("%d",&j);
+	printf("enter the no of colums =");
+	scanf("%d",&n);
+	printf("enter the no of raws =");
+	scanf("%d",&m);
+	rmo = b + w*(  n *( i - l1 )* ( j - l2 ));
+	cmo = b + w* ( i - l1 )+ ( m * ( j - l2 ));
+	printf("the RMO =%d",rmo);
+	printf("the CMO =%d",cmo);
+	
+	return 0;
+	
+	
+}
