@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+int a[75];
+int b,w,i,l,cal ,cal1,cal2,cal3;
+	printf("enter the array =");
+	scanf("%d",&a);
+	printf("enter the base value =");
+	scanf("%d",&b);
+	printf("enter the size of array =");
+	scanf("%d",&w);
+	printf("enter thew index value =");
+	scanf("%d",&i);
+	printf("enter the lower bound =");
+	scanf("%d",&l);
+	cal=i-l;
+	cal1=w*cal;
+	cal2=b+cal1;
+	printf("the result of ca2=%d",cal2);
+	
+	return 0;
+	
+	
+}
